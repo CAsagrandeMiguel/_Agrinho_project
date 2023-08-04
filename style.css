@@ -1,0 +1,93 @@
+:root {
+    --vermelho: red;
+    --cinza: rgb(12, 158, 158);
+    --azul: blue;
+    --vinho:  rgb(153, 71, 126);
+    --rosa: #dc6ebe;
+    --roxo: rgb(67, 0, 83);
+    --violetaescuro: #52237e;
+    --preto: black;
+}
+
+.titulo_principal {
+    text-align: center;
+    color: var(--cinza);
+    font-size: 58px;
+    background-color: var(--vinho);
+    padding: 10px;
+}
+
+.intro{
+    text-align: center;
+    font-size: 50px;
+    color: var(--cinza);
+    background-color: var(--vinho);
+}
+
+.centro {
+   text-align: center;
+}
+
+.imagem_painel{
+    width: 920px;
+    height: 700px;
+    border-radius: 50%;
+}
+
+.subtitulos {
+    text-align: left;
+    font-size: 38px;
+    color: var(--roxo);
+}
+
+.escritas {
+    font-size: 37px;
+    color: var(--roxo);
+}
+
+.lista {
+    font-size: 27px;
+    color: var(--preto);
+}
+
+footer img {
+    width: 240px;
+    height: 240px;
+    padding: 0px 80px;
+    border-radius: 50%;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+}
+
+.direcionamento {
+    font-size: 40px;
+   text-align: center;
+   padding: 4px;
+   color: var(--cinza);
+   background-color: var(--vinho);
+}
+
+.IA {
+    margin: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--violetaescuro);
+}
+
+.conteiner {
+    padding: 0px 70px;
+}
+
+.github {
+    background-color: var(--vinho);
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+.imggit{
+    width: 70px; height: 30px;
+}
